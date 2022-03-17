@@ -16,7 +16,7 @@ Category.hasMany(Product, {
 });
 
 // Products belongToMany Tags (through ProductTag)
-Product.BelongsToMany(Tag, {
+Product.belongsToMany(Tag, {
   through: {
     model: ProductTag,
     foreignKey: "product_id",
@@ -24,7 +24,7 @@ Product.BelongsToMany(Tag, {
 });
 
 // Tags belongToMany Products (through ProductTag)
-Tag.BelongsToMany(Product, {
+Tag.belongsToMany(Product, {
   through: {
     model: ProductTag,
     foreignKey: "tag_id",
