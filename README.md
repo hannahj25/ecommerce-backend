@@ -22,7 +22,17 @@
 
 ## Installation
 
+
+
+This video link demonstrates how to start the mysql shell, create the database, seed the database and start the server.
+
+https://drive.google.com/file/d/1duuUKhDSABi3WPTV0p35vDyO_CvzW4FI/view
+
 ## Usage
+
+This video link demonstrates testing of each route in Insomnia.
+
+https://drive.google.com/file/d/1WE6YcKv482-JpoTsGY81CFNVBnKXKdY5/view
 
 ## Built With
 
